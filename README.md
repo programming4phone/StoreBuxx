@@ -2,7 +2,7 @@
 
 This project demonstrates how to use an Ethereum Smart Contract to manage in-store tokens in support of a marketing campaign.
 Customers are allowed to purchase store tokens that can be later redeemed for merchandise.
-Retailers can also issue in store credits in the form of tokens.
+Retailers can also issue in-store credits in the form of tokens.
 
 
 The manual movement of money is replaced with an Ethereum smart contract implementing the following functions:
