@@ -1,4 +1,4 @@
-# Ethereum Smart Contract for Store Buxx 
+# Ethereum Smart Contract for StoreBuxx 
 
 This project demonstrates how to use an Ethereum Smart Contract to manage in-store tokens in support of a marketing campaign.
 Customers are allowed to purchase store tokens that can be later redeemed for merchandise.
