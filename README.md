@@ -1,16 +1,16 @@
 # Ethereum Smart Contract for Store Buxx 
 
-This project demonstrates how to use an Ethereum Smart Contract to manage in store tokens in support of a marketing campaign.
-Customers are allowed to purchase tokens that can be later redeemed for merchandise.
+This project demonstrates how to use an Ethereum Smart Contract to manage in-store tokens in support of a marketing campaign.
+Customers are allowed to purchase store tokens that can be later redeemed for merchandise.
 Retailers can also issue in store credits in the form of tokens.
 
 
 The manual movement of money is replaced with an Ethereum smart contract implementing the following functions:
 - **purchase** -  A customer purchases tokens using Ether, which is taken from the customer's account and transferred to the store owner's account. The number of tokens issued to the customer depends on the current price of ether. Each token is worth approximately 1 cent USD. The number of tokens purchased is added to the customer's token balance.
 - **redeem** - The store owner redeems customer tokens for merchandise. The number of tokens redeemed is subtracted from the customer's token balance.
-- **credit** - The store owner gives a customer a numnber of tokens as an in store credit. The number of tokens credited is added to the customer's token balance.
+- **credit** - The store owner gives a customer a number of tokens as an in-store credit. The number of tokens credited is added to the customer's token balance.
 - **halt** - The store owner temporarily suspends the purchase of tokens (in case of major Ether price drop!).
-- **resume** - The store owner allows the resumption token purchases.
+- **resume** - The store owner allows the resumption of token purchases.
 
 ## Development stack
 
